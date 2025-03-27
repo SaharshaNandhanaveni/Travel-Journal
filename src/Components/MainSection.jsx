@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const MainSection = () => {
   return (
@@ -9,7 +8,10 @@ const MainSection = () => {
         <p className="lead">
           Create beautiful travel journals, share your adventures, and relive your favorite moments with our intuitive journaling platform.
         </p>
-        <Link to="/create-journal" className="btn btn-primary">Create New Journal</Link>
+        <button className="btn btn-primary">Create New Journal</button>
+        {/* 
+        <button className="btn btn-link">How it Works</button>
+         */}
       </div>
     </section>
   );
